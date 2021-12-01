@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
-  "module": "build/index.es.js",
   "files": [
     "build"
   ],
@@ -14,8 +13,8 @@
   "author": "rawat-shashank",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=17.0.37",
-    "react-dom": ">=17.0.37",
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0",
     "styled-components": ">=5.3.3"
   },
   "devDependencies": {

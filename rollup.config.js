@@ -2,23 +2,16 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
 
-const packageJson = require("./package.json");
-
 export default {
-  input: "components/index.ts",
+  input: ["components/index.ts"],
   output: [
     {
-      file: packageJson.main,
+      dir: "build",
       format: "cjs",
       sourcemap: true,
     },
-    {
-      file: packageJson.module,
-      format: "esm",
-      sourcemap: true,
-    },
   ],
-  //   preserveModules: true,
+  preserveModules: true,
   plugins: [
     peerDepsExternal(),
     commonjs(),
