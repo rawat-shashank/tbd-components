@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "sb": "start-storybook -p 6006",
+    "build-sb": "build-storybook",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
