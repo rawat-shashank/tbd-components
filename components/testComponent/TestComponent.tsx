@@ -22,11 +22,9 @@ const StyledHeading = styled.h1`
 
 const StyledDescription = styled.h2``;
 
-const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
+export const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
   <StyledDiv data-testid="test-component" theme={theme}>
     <StyledHeading className="heading">I'm the test component</StyledHeading>
     <StyledDescription>Made with love by Harvey</StyledDescription>
   </StyledDiv>
 );
-
-export default TestComponent;
