@@ -1,0 +1,5 @@
+build/
+.vscode/
+.storybook/
+storybook-static/
+components/**/*.test.tsx
