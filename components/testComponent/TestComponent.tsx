@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { TestComponentProps } from "./TestComponent.types";
+import TestComponentProps from './TestComponent.types';
 
 const StyledDiv = styled.div`
   background-color: white;
@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
   text-align: center;
 
   ${(props) =>
-    props.theme === "secondary" &&
+    props.theme === 'secondary' &&
     `background-color: black;
      color: white;`}
 `;
@@ -24,7 +24,9 @@ const StyledDescription = styled.h2``;
 
 export const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
   <StyledDiv data-testid="test-component" theme={theme}>
-    <StyledHeading className="heading">I'm the test component</StyledHeading>
+    <StyledHeading className="heading">
+      I&apos;m the test component
+    </StyledHeading>
     <StyledDescription>Made with love by Harvey</StyledDescription>
   </StyledDiv>
 );
