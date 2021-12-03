@@ -27,6 +27,6 @@ export const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
     <StyledHeading className="heading">
       I&apos;m the test component
     </StyledHeading>
-    <StyledDescription>Made with love by Harvey</StyledDescription>
+    <StyledDescription>Made with love by Shashank</StyledDescription>
   </StyledDiv>
 );
