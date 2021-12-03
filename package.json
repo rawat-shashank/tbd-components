@@ -16,7 +16,8 @@
     "prepublishOnly": "npm run build",
     "commit": "cz",
     "lint": "eslint components/**/*.t{s,sx}",
-    "prettier": "prettier --write components/**/*.t{s,sx}",
+    "prettier": "prettier --check components/**/*.t{s,sx}",
+    "pretest": "npm run lint && npm run prettier",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
