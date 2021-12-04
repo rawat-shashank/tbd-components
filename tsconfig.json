@@ -15,7 +15,10 @@
   "exclude": [
     "node_modules",
     "build",
-    "components/**/*.stories.tsx",
-    "components/**/*.test.tsx"
+    "coverage",
+    "tests/**/*",
+    "stories/**/*",
+    "assets/**/*.(ts,tsx)",
+    "styles/**/*"
   ]
 }
