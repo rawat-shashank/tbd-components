@@ -1,16 +1,35 @@
-export { default as ArrowBackward } from './ArrowBackward';
-export { default as ArrowDown } from './ArrowDown';
-export { default as ArrowForward } from './ArrowForward';
-export { default as ArrowUp } from './ArrowUp';
-export { default as Behance } from './Behance';
-export { default as Dribbble } from './Dribbble';
-export { default as Figma } from './Figma';
-export { default as Globe } from './Globe';
-export { default as ImagePlaceholder } from './ImagePlaceholder';
-export { default as Instagram } from './Instagram';
-export { default as Mail } from './Mail';
-export { default as Menu } from './Menu';
-export { default as Moon } from './Moon';
-export { default as Sun } from './Sun';
-export { default as System } from './System';
-export { default as Twitter } from './Twitter';
+import { SvgArrowBackward as ArrowBackward } from './ArrowBackward';
+import { SvgArrowDown as ArrowDown } from './ArrowDown';
+import { SvgArrowForward as ArrowForward } from './ArrowForward';
+import { SvgArrowUp as ArrowUp } from './ArrowUp';
+import { SvgBehance as Behance } from './Behance';
+import { SvgDribbble as Dribbble } from './Dribbble';
+import { SvgFigma as Figma } from './Figma';
+import { SvgGlobe as Globe } from './Globe';
+import { SvgImagePlaceholder as ImagePlaceholder } from './ImagePlaceholder';
+import { SvgInstagram as Instagram } from './Instagram';
+import { SvgMail as Mail } from './Mail';
+import { SvgMenu as Menu } from './Menu';
+import { SvgMoon as Moon } from './Moon';
+import { SvgSun as Sun } from './Sun';
+import { SvgSystem as System } from './System';
+import { SvgTwitter as Twitter } from './Twitter';
+
+export {
+  ArrowBackward,
+  ArrowDown,
+  ArrowForward,
+  ArrowUp,
+  Behance,
+  Dribbble,
+  Figma,
+  Globe,
+  ImagePlaceholder,
+  Instagram,
+  Mail,
+  Menu,
+  Moon,
+  Sun,
+  System,
+  Twitter,
+};

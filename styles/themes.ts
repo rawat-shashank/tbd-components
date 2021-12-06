@@ -1,5 +1,7 @@
 import { DefaultTheme } from 'styled-components';
 
+export interface ThemeProps extends DefaultTheme {}
+
 interface ColorsInterface {
   [key: string]: {
     [key: string]: string;
@@ -28,7 +30,7 @@ export const BreakPoints = {
   tablet: '768px',
 };
 
-export const lightTheme: DefaultTheme = {
+export const lightTheme: ThemeProps = {
   text: {
     primary: colors.neutral['100'],
     secondary: colors.neutral['80'],
@@ -54,7 +56,7 @@ export const lightTheme: DefaultTheme = {
   },
 };
 
-export const darkTheme: DefaultTheme = {
+export const darkTheme: ThemeProps = {
   text: {
     primary: colors.neutral['00'],
     secondary: colors.neutral['20'],

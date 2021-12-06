@@ -11,14 +11,13 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["components/**/*"],
+  "include": ["components/**/*", "styles/**/*"],
   "exclude": [
     "node_modules",
     "build",
     "coverage",
     "tests/**/*",
     "stories/**/*",
-    "assets/**/*.(ts,tsx)",
-    "styles/**/*"
+    "assets/**/*.(ts,tsx)"
   ]
 }

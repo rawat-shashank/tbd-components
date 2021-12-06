@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgBehance = (props: SVGProps<SVGSVGElement>) => (
+export const SvgBehance = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -16,5 +16,3 @@ const SvgBehance = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
-export default SvgBehance;

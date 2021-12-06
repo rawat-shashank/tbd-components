@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "types": "build/index.d.ts",
   "files": [
     "build"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "clean": "rimraf build",
+    "build": "npm run clean && rollup -c",
     "sb": "start-storybook -p 6006",
     "build-sb": "build-storybook",
     "test": "jest",
@@ -23,7 +26,6 @@
   },
   "keywords": [],
   "author": "rawat-shashank",
-  "license": "ISC",
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0",
@@ -34,6 +36,7 @@
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
     "@storybook/addon-actions": "^6.4.2",
     "@storybook/addon-essentials": "^6.4.2",
     "@storybook/addon-links": "^6.4.2",
@@ -63,6 +66,7 @@
     "prettier": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
     "rollup": "^2.60.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.31.1",
