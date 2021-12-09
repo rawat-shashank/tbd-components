@@ -1,22 +1,4 @@
-// import {
-//   ArrowBackward,
-//   ArrowDown,
-//   ArrowForward,
-//   ArrowUp,
-//   Behance,
-//   Dribbble,
-//   Figma,
-//   Globe,
-//   ImagePlaceholder,
-//   Instagram,
-//   Mail,
-//   Menu,
-//   Moon,
-//   Sun,
-//   System,
-//   Twitter,
-// } from './assets';
-import { LinkButton } from './components';
+import { LinkButton, Icon } from './components';
 import {
   lightTheme,
   darkTheme,
@@ -26,23 +8,8 @@ import {
 import { GlobalStyles } from './styles/globalStyles';
 
 export {
-  // ArrowBackward,
-  // ArrowDown,
-  // ArrowForward,
-  // ArrowUp,
-  // Behance,
-  // Dribbble,
-  // Figma,
-  // Globe,
-  // ImagePlaceholder,
-  // Instagram,
-  // Mail,
-  // Menu,
-  // Moon,
-  // Sun,
-  // System,
-  // Twitter,
   LinkButton,
+  Icon,
   lightTheme,
   darkTheme,
   GlobalStyles,
