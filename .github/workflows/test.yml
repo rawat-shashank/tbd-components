@@ -4,34 +4,50 @@ name: Coverage report
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on all branches.
   pull_request:
     branches: '*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  coverage:
-    # The type of runner that the job will run on
+  
+  lint:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
 
-      # Runs a single command using the runners shell
       - name: Install dependencies
         run: npm ci
 
-      # Runs pre test
       - name: Run pre test
-        run: npm run pretest
+        run: npm run lint
+  
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
 
-      # Runs tests
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run pre test
+        run: npm run prettier
+  
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Install dependencies
+        run: npm ci
+    
       - name: Run testing
         run: npm run test:coverage
