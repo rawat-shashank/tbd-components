@@ -1,9 +1,10 @@
 import { ButtonHTMLAttributes } from 'react';
-import { ThemeProps } from '../../../styles/themes';
 
 export interface LinkButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement> {
+  /** text that represent the link */
   label: string;
+
+  /** class to override the default styles.  */
   className?: string;
-  theme?: ThemeProps;
 }

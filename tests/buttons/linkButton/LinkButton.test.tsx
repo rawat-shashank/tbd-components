@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 
 import { Default, Disabled } from '../../../stories/buttons/LinkButton.stories';
+import { ThemeProvider } from 'styled-components';
 
 describe('Test Component', () => {
   it('should match label', () => {
@@ -18,6 +19,32 @@ describe('Test Component', () => {
     const testComponent = getByTestId('link-button');
     expect(testComponent).toHaveStyle({ color: '#A0A0A0' });
     expect(testComponent).toBeDisabled();
+  });
+
+  it('should override with theme color', () => {
+    const theme: any = { text: { info: 'red' } };
+    const renderComponent = () =>
+      render(
+        <ThemeProvider theme={theme}>
+          <Default {...Default.args} />
+        </ThemeProvider>
+      );
+    const { getByTestId } = renderComponent();
+    const testComponent = getByTestId('link-button');
+    expect(testComponent).toHaveStyle({ color: theme.text.info });
+  });
+
+  it('should override with theme disabled color', () => {
+    const theme: any = { icon: { disabled: 'black' } };
+    const renderComponent = () =>
+      render(
+        <ThemeProvider theme={theme}>
+          <Disabled {...Disabled.args} />
+        </ThemeProvider>
+      );
+    const { getByTestId } = renderComponent();
+    const testComponent = getByTestId('link-button');
+    expect(testComponent).toHaveStyle({ color: theme.icon.disabled });
   });
 
   it('should match snapshot', () => {

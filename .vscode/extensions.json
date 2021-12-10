@@ -1,3 +1,3 @@
 {
-  "recommendations": ["knisterpeter.vscode-commitizen"]
+  "recommendations": ["knisterpeter.vscode-commitizen", "esbenp.prettier-vscode"]
 }

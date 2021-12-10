@@ -8,18 +8,16 @@ export const StyledLinkButton = styled.button.attrs((props) => ({
   background: transparent;
   cursor: pointer;
   padding: 0.625rem 1rem;
-  color: ${({ theme }) => (theme?.text?.info ? theme.text.info : '#485BFF')};
+  color: ${({ theme: { text } }) => (text?.info ? text.info : '#485BFF')};
   text-decoration: underline;
   text-transform: capitalize;
   font-size: 0.875rem;
   &:hover {
-    color: ${({ theme }) =>
-      theme?.text?.tertiary ? theme.text.tertiary : '#717171'};
+    color: ${({ theme: { text } }) => text?.tertiary || '#717171'};
   }
   &:disabled {
     text-decoration: none;
-    color: ${({ theme }) =>
-      theme?.icon?.disabled ? theme.icon.disabled : '#A0A0A0'};
+    color: ${({ theme: { icon } }) => icon?.disabled || '#A0A0A0'};
   }
   @media (min-width: ${BreakPoints.mobile}) {
     font-size: 1rem;
