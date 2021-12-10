@@ -36,7 +36,7 @@ jobs:
       - name: Run pre test
         run: npm run pretest
 
-  test:coverage:
+  coverage:
     needs: lint
     runs-on: ubuntu-latest
     steps:
