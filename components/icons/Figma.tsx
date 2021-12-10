@@ -3,8 +3,8 @@ import { StyledIcon } from './Icon.styles';
 import { SVGProps } from './Icon.types';
 
 export const Figma = ({
-  width = '1em',
-  height = '1em',
+  width = '1rem',
+  height = '1rem',
   className,
 }: SVGProps) => (
   <StyledIcon
@@ -14,6 +14,7 @@ export const Figma = ({
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    data-testid="icon"
   >
     <path
       d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5ZM12 2h3.5a3.5 3.5 0 1 1 0 7H12V2Z"

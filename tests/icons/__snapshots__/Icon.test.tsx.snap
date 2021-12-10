@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Component should have updated values 1`] = `
+<div>
+  <svg
+    class="sc-bdvvtL fXhbuS"
+    data-testid="icon"
+    fill="none"
+    height="1rem"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 19V5M5 12l7-7 7 7"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 2`] = `
+<div>
+  <svg
+    class="sc-bdvvtL fXhbuS"
+    data-testid="icon"
+    fill="none"
+    height="1rem"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 5v14M19 12l-7 7-7-7"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 3`] = `
+<div>
+  <svg
+    class="sc-bdvvtL fXhbuS"
+    data-testid="icon"
+    fill="none"
+    height="1rem"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5 12h14M12 5l7 7-7 7"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 4`] = `
+<div>
+  <svg
+    class="sc-bdvvtL fXhbuS"
+    data-testid="icon"
+    fill="none"
+    height="1rem"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19 12H5M12 19l-7-7 7-7"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 5`] = `
+<div>
+  <svg
+    class="sc-bdvvtL fXhbuS"
+    data-testid="icon"
+    fill="none"
+    height="1rem"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5ZM12 2h3.5a3.5 3.5 0 1 1 0 7H12V2Z"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+    <path
+      d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0v0ZM5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0ZM5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5Z"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 6`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21.41 8.64v-.05a10 10 0 0 0-18.78 0v.05a9.86 9.86 0 0 0 0 6.72v.05a10 10 0 0 0 18.78 0v-.05a9.86 9.86 0 0 0 0-6.72ZM4.26 14a7.82 7.82 0 0 1 0-4h1.86a16.73 16.73 0 0 0 0 4H4.26Zm.82 2h1.4c.235.892.57 1.754 1 2.57A8 8 0 0 1 5.08 16Zm1.4-8h-1.4a8 8 0 0 1 2.37-2.57A12.15 12.15 0 0 0 6.48 8ZM11 19.7A6.34 6.34 0 0 1 8.57 16H11v3.7Zm0-5.7H8.14a14.36 14.36 0 0 1 0-4H11v4Zm0-6H8.57A6.34 6.34 0 0 1 11 4.3V8Zm7.92 0h-1.4a12.148 12.148 0 0 0-1-2.57A8 8 0 0 1 18.92 8ZM13 4.3A6.34 6.34 0 0 1 15.43 8H13V4.3Zm0 15.4V16h2.43A6.34 6.34 0 0 1 13 19.7Zm2.86-5.7H13v-4h2.86a14.36 14.36 0 0 1 0 4Zm.69 4.57c.43-.816.765-1.678 1-2.57h1.4a8 8 0 0 1-2.4 2.57ZM19.74 14h-1.86c.081-.664.121-1.332.12-2a16.285 16.285 0 0 0-.12-2h1.86a7.82 7.82 0 0 1 0 4Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 7`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19 2H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14c.165-.002.328-.019.49-.05l.3-.07H19.91l.37-.14.13-.07c.1-.06.21-.11.31-.18a3.78 3.78 0 0 0 .38-.32l.07-.09c.098-.1.188-.206.27-.32l.09-.13c.07-.111.13-.228.18-.35.027-.048.05-.098.07-.15.05-.12.08-.25.12-.38v-.15c.057-.195.09-.397.1-.6V5a3 3 0 0 0-3-3ZM5 20a1 1 0 0 1-1-1v-4.31l3.29-3.3a1 1 0 0 1 1.42 0l8.6 8.61H5Zm15-1a1 1 0 0 1-.07.36c-.023.049-.05.096-.08.14a.948.948 0 0 1-.09.12l-5.35-5.35.88-.88a1.002 1.002 0 0 1 1.42 0l3.29 3.3V19Zm0-5.14L18.12 12a3.08 3.08 0 0 0-4.24 0l-.88.88L10.12 10a3.08 3.08 0 0 0-4.24 0L4 11.86V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8.86Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 8`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-.41 2-5.88 5.88a1.002 1.002 0 0 1-1.42 0L5.41 6h13.18ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41V17Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 9`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M3 11h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 2H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 10`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21.64 13a1 1 0 0 0-1.05-.14 8.05 8.05 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 12.24 9.92 8.11 8.11 0 0 1-7.18 4.32v-.04Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 11`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m5.64 17-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm7-7a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1ZM5.64 7.05a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1 1 0 0 0-1.41 1.41l.71.71Zm12 .29a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.64.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29h-.02ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-9 8a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Zm6.36-2A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Test Component should have updated values 12`] = `
+<div>
+  <svg
+    class="sc-bdvvtL tWBxq"
+    data-testid="icon"
+    height="1rem"
+    stroke="none"
+    viewBox="0 0 24 24"
+    width="1rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;

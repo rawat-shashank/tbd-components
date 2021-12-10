@@ -1,8 +1,8 @@
 import React from 'react';
+import { IconProps } from './Icon.types';
 
 import { ArrowUp } from './ArrowUp';
 import { ArrowBackward } from './ArrowBackward';
-import { IconProps } from './Icon.types';
 import { ArrowDown } from './ArrowDown';
 import { ArrowForward } from './ArrowForward';
 import { Figma } from './Figma';
