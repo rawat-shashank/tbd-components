@@ -32,5 +32,6 @@ jobs:
       - name: RELEASE Publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ env.RELEASE }}
         run: npm run semantic-release
