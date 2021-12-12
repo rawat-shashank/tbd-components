@@ -20,7 +20,7 @@ import { ThemeProvider } from 'styled-components';
 const strokeCases = [ArrowUp, ArrowDown, ArrowForward, ArrowBackward, Figma];
 const fillCases = [Globe, ImagePlaceholder, Mail, Menu, Moon, Sun, System];
 
-describe('Test Component', () => {
+describe('Unit Test | Icon Component', () => {
   test.each(strokeCases)(
     'should have default styles with stroke',
     (TestComp) => {

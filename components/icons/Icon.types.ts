@@ -1,5 +1,19 @@
 import { SVGAttributes } from 'react';
 
+export type IconsName =
+  | 'arrow-up'
+  | 'arrow-backward'
+  | 'arrow-down'
+  | 'arrow-forward'
+  | 'figma'
+  | 'globe'
+  | 'image-placeholder'
+  | 'mail'
+  | 'menu'
+  | 'sun'
+  | 'moon'
+  | 'system';
+
 export interface SVGProps extends SVGAttributes<SVGElement> {
   /** class to override the default styles.  */
   className?: string;
@@ -12,17 +26,6 @@ export interface SVGProps extends SVGAttributes<SVGElement> {
 }
 
 export interface IconProps extends SVGProps {
-  name:
-    | 'arrow-up'
-    | 'arrow-backward'
-    | 'arrow-down'
-    | 'arrow-forward'
-    | 'figma'
-    | 'globe'
-    | 'image-placeholder'
-    | 'mail'
-    | 'menu'
-    | 'sun'
-    | 'moon'
-    | 'system';
+  /** Icon name */
+  name: IconsName;
 }

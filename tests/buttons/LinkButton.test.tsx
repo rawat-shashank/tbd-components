@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import { Default, Disabled } from '../../../stories/buttons/LinkButton.stories';
+import { Default, Disabled } from '../../stories/buttons/LinkButton.stories';
 import { ThemeProvider } from 'styled-components';
 
-describe('Test Component', () => {
+describe('Unit Test | Link Button Component', () => {
   it('should match label', () => {
     const renderComponent = () => render(<Default {...Default.args} />);
     const { getByTestId } = renderComponent();
