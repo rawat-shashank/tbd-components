@@ -1,18 +1,19 @@
-import { LinkButton, Icon } from './components';
+import { GlobalStyles } from './styles/globalStyles';
 import {
   lightTheme,
   darkTheme,
   ThemeProps,
   BreakPoints,
 } from './styles/themes';
-import { GlobalStyles } from './styles/globalStyles';
+import { LinkButton, Icon, IconButton } from './components';
 
 export {
-  LinkButton,
-  Icon,
+  GlobalStyles,
   lightTheme,
   darkTheme,
-  GlobalStyles,
   ThemeProps,
   BreakPoints,
+  Icon,
+  LinkButton,
+  IconButton,
 };

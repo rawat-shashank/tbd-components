@@ -1,4 +1,5 @@
-import { LinkButton } from './buttons/linkButton/LinkButton';
 import { Icon } from './icons/Icon';
+import { LinkButton } from './buttons/linkButton/LinkButton';
+import { IconButton } from './buttons/iconButton/IconButton';
 
-export { LinkButton, Icon };
+export { Icon, LinkButton, IconButton };

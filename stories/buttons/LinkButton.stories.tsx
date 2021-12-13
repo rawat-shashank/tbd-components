@@ -1,7 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { LinkButton } from '../../components/buttons/linkButton/LinkButton';
-import { darkTheme } from '../../styles/themes';
 
 export default {
   title: 'Buttons/Link Button',
