@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Component should have updated values 1`] = `
+exports[`Unit Test | Icon Component should have updated values 1`] = `
 <div>
   <svg
     class="sc-bdvvtL fXhbuS"
@@ -22,7 +22,7 @@ exports[`Test Component should have updated values 1`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 2`] = `
+exports[`Unit Test | Icon Component should have updated values 2`] = `
 <div>
   <svg
     class="sc-bdvvtL fXhbuS"
@@ -44,7 +44,7 @@ exports[`Test Component should have updated values 2`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 3`] = `
+exports[`Unit Test | Icon Component should have updated values 3`] = `
 <div>
   <svg
     class="sc-bdvvtL fXhbuS"
@@ -66,7 +66,7 @@ exports[`Test Component should have updated values 3`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 4`] = `
+exports[`Unit Test | Icon Component should have updated values 4`] = `
 <div>
   <svg
     class="sc-bdvvtL fXhbuS"
@@ -88,7 +88,7 @@ exports[`Test Component should have updated values 4`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 5`] = `
+exports[`Unit Test | Icon Component should have updated values 5`] = `
 <div>
   <svg
     class="sc-bdvvtL fXhbuS"
@@ -117,7 +117,7 @@ exports[`Test Component should have updated values 5`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 6`] = `
+exports[`Unit Test | Icon Component should have updated values 6`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -136,7 +136,7 @@ exports[`Test Component should have updated values 6`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 7`] = `
+exports[`Unit Test | Icon Component should have updated values 7`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -155,7 +155,7 @@ exports[`Test Component should have updated values 7`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 8`] = `
+exports[`Unit Test | Icon Component should have updated values 8`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -174,7 +174,7 @@ exports[`Test Component should have updated values 8`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 9`] = `
+exports[`Unit Test | Icon Component should have updated values 9`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -193,7 +193,7 @@ exports[`Test Component should have updated values 9`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 10`] = `
+exports[`Unit Test | Icon Component should have updated values 10`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -212,7 +212,7 @@ exports[`Test Component should have updated values 10`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 11`] = `
+exports[`Unit Test | Icon Component should have updated values 11`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"
@@ -231,7 +231,7 @@ exports[`Test Component should have updated values 11`] = `
 </div>
 `;
 
-exports[`Test Component should have updated values 12`] = `
+exports[`Unit Test | Icon Component should have updated values 12`] = `
 <div>
   <svg
     class="sc-bdvvtL tWBxq"

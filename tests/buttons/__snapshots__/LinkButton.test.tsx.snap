@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Component should match snapshot 1`] = `
+exports[`Unit Test | Link Button Component should match snapshot 1`] = `
 <div>
   <button
     class="sc-bdvvtL IbS"

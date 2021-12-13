@@ -8,8 +8,8 @@ import { LinkButtonProps } from './LinkButton.types';
 export const LinkButton = ({ label, className, disabled }: LinkButtonProps) => (
   <StyledLinkButton
     className={className}
-    data-testid="link-button"
     disabled={disabled}
+    data-testid="link-button"
   >
     {label}
   </StyledLinkButton>
