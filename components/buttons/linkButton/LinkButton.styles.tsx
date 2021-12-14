@@ -3,6 +3,7 @@ import { BreakPoints } from '../../../styles/themes';
 
 export const StyledLinkButton = styled.button.attrs((props) => ({
   className: props.className,
+  style: props.style,
 }))`
   border: none;
   background: transparent;

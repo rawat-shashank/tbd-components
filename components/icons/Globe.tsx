@@ -6,11 +6,13 @@ export const Globe = ({
   width = '1rem',
   height = '1rem',
   className,
+  style,
 }: SVGProps) => (
   <StyledIcon
     width={width}
     height={height}
     className={className}
+    style={style}
     viewBox="0 0 24 24"
     stroke="none"
     xmlns="http://www.w3.org/2000/svg"
