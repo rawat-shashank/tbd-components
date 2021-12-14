@@ -17,26 +17,82 @@ import { System } from './System';
 /**
  * Display an svg icon as react component.
  */
-export const Icon = ({ name, width, height, className }: IconProps) =>
+export const Icon = ({ name, width, height, className, style }: IconProps) =>
   ({
-    'arrow-up': <ArrowUp width={width} height={height} className={className} />,
+    'arrow-up': (
+      <ArrowUp
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
+    ),
     'arrow-down': (
-      <ArrowDown width={width} height={height} className={className} />
+      <ArrowDown
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
     ),
     'arrow-backward': (
-      <ArrowBackward width={width} height={height} className={className} />
+      <ArrowBackward
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
     ),
     'arrow-forward': (
-      <ArrowForward width={width} height={height} className={className} />
+      <ArrowForward
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
     ),
-    figma: <Figma width={width} height={height} className={className} />,
-    globe: <Globe width={width} height={height} className={className} />,
+    figma: (
+      <Figma
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
+    ),
+    globe: (
+      <Globe
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
+    ),
     'image-placeholder': (
-      <ImagePlaceholder width={width} height={height} className={className} />
+      <ImagePlaceholder
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
     ),
-    mail: <Mail width={width} height={height} className={className} />,
-    menu: <Menu width={width} height={height} className={className} />,
-    sun: <Sun width={width} height={height} className={className} />,
-    moon: <Moon width={width} height={height} className={className} />,
-    system: <System width={width} height={height} className={className} />,
+    mail: (
+      <Mail width={width} height={height} className={className} style={style} />
+    ),
+    menu: (
+      <Menu width={width} height={height} className={className} style={style} />
+    ),
+    sun: (
+      <Sun width={width} height={height} className={className} style={style} />
+    ),
+    moon: (
+      <Moon width={width} height={height} className={className} style={style} />
+    ),
+    system: (
+      <System
+        width={width}
+        height={height}
+        className={className}
+        style={style}
+      />
+    ),
   }[name]);

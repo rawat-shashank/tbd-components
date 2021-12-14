@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledIconButton = styled.button.attrs((props) => ({
   className: props.className,
+  style: props.style,
 }))`
   border: none;
   background-color: transparent;

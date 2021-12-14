@@ -1,4 +1,4 @@
-import { SVGAttributes } from 'react';
+import { CSSProperties, SVGAttributes } from 'react';
 
 export type IconsName =
   | 'arrow-up'
@@ -23,6 +23,8 @@ export interface SVGProps extends SVGAttributes<SVGElement> {
 
   /** controls svg height */
   height?: number | string | undefined;
+
+  style?: CSSProperties | undefined;
 }
 
 export interface IconProps extends SVGProps {

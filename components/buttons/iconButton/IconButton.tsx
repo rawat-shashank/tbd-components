@@ -9,6 +9,7 @@ import { IconButtonProps } from './IconButton.types';
 export const IconButton = ({
   icon,
   className,
+  style,
   disabled,
   variant = 'default',
 }: IconButtonProps) => {
@@ -33,6 +34,7 @@ export const IconButton = ({
   return (
     <StyledIconButton
       className={classes.length && classes.join(' ')}
+      style={style}
       disabled={disabled}
       data-testid="icon-button"
     >

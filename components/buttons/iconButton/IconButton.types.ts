@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from 'react';
+import { ButtonHTMLAttributes, CSSProperties } from 'react';
 import { IconsName } from '../../icons/Icon.types';
 
 export interface IconButtonProps
@@ -8,6 +8,9 @@ export interface IconButtonProps
 
   /** class to override the default styles.  */
   className?: string;
+
+  /** React style to override the default styles.  */
+  style?: CSSProperties | undefined;
 
   /** Icon Button variants */
   variant?: 'default' | 'outline' | 'active' | 'primary';
