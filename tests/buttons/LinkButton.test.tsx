@@ -47,6 +47,25 @@ describe('Unit Test | Link Button Component', () => {
     expect(testComponent).toHaveStyle({ color: theme.icon.disabled });
   });
 
+  it('should work with external className', () => {
+    const renderComponent = () =>
+      render(<Default {...Default.args} className="test" />);
+    const { getByTestId } = renderComponent();
+    const testComponent = getByTestId('link-button');
+    expect(testComponent).toHaveClass('test');
+  });
+
+  it('should work with external style', () => {
+    const style = {
+      color: 'red',
+    };
+    const renderComponent = () =>
+      render(<Default {...Default.args} style={style} />);
+    const { getByTestId } = renderComponent();
+    const testComponent = getByTestId('link-button');
+    expect(testComponent).toHaveStyle({ color: style.color });
+  });
+
   it('should match snapshot', () => {
     const { container } = render(<Default {...Default.args} />);
     expect(container).toMatchSnapshot();
