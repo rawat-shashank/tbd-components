@@ -61,6 +61,17 @@ describe('Unit Test | Icon Button Component', () => {
     expect(testComponent).toHaveClass('test');
   });
 
+  it('should work with external style', () => {
+    const style = {
+      color: 'red',
+    };
+    const renderComponent = () =>
+      render(<Default {...Default.args} style={style} />);
+    const { getByTestId } = renderComponent();
+    const testComponent = getByTestId('icon-button');
+    expect(testComponent).toHaveStyle({ color: style.color });
+  });
+
   it('should override default with theme color', () => {
     const theme: any = { icon: { default: 'black' } };
     const renderComponent = () =>
