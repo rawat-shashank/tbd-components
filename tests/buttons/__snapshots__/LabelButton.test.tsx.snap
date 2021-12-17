@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Test | Label Button Component should match snapshot 1`] = `
+<div>
+  <button
+    class="sc-gsDKAQ jJBkvo primary primary"
+    data-testid="label-button"
+  >
+    Label Button
+  </button>
+</div>
+`;
