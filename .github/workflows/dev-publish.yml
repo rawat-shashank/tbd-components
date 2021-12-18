@@ -9,27 +9,24 @@ on:
 jobs:
   prerelease:
     runs-on: ubuntu-latest
+    env:
+      PRERELEASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/dev' }}
     steps:
       - uses: actions/checkout@v2
-
       - uses: actions/setup-node@v2
-
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-
       - name: Install dependencies
-        run: npm install
-
+        run: npm ci
       - name: pretest
         run: |
           npm run pretest
           npm run test:coverage
-
-      - name: Dev Publish
+      - name: DEV RELEASE Publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ env.RELEASE }}
+        if: ${{ env.PRERELEASE }}
         run: npm run semantic-release
