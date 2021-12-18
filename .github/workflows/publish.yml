@@ -1,0 +1,35 @@
+name: publish
+on:
+  push:
+    branches: [master]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: pretest
+        run: |
+          npm run pretest
+          npm run test:coverage
+
+      - name: RELEASE Publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ env.RELEASE }}
+        run: npm run semantic-release
