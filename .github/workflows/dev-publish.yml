@@ -11,33 +11,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v2
+
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+
       - name: Install dependencies
-        run: npm ci
+        run: npm install
+
       - name: pretest
         run: |
           npm run pretest
           npm run test:coverage
 
-  release:
-    runs-on: ubuntu-latest
-    env:
-      RELEASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/dev' }}
-    needs: [prerelease]
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-      - name: Install dependencies
-        run: npm ci
-      - name: DEV RELEASE Publish
+      - name: Dev Publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
