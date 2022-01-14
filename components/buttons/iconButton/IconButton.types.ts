@@ -6,7 +6,7 @@ export interface IconButtonProps
   /** Icon name */
   icon: IconsName;
 
-  /** class to override the default styles.  */
+  /** Class to override the default styles.  */
   className?: string;
 
   /** React style to override the default styles.  */

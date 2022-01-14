@@ -5,6 +5,9 @@ import { IconButtonProps } from './IconButton.types';
 
 /**
  * Display a Icon button.
+ *
+ * >IconButton component comes with default styles which can be overriden
+ * by using either classname or style.
  */
 export const IconButton = ({
   icon,

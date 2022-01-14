@@ -15,15 +15,16 @@ export type IconsName =
   | 'system';
 
 export interface SVGProps extends SVGAttributes<SVGElement> {
-  /** class to override the default styles.  */
+  /** Class to override the default styles.  */
   className?: string;
 
-  /** controls svg width */
+  /** Width for SVG element */
   width?: number | string | undefined;
 
-  /** controls svg height */
+  /** Height for SVG element */
   height?: number | string | undefined;
 
+  /** React style to override the default styles.  */
   style?: CSSProperties | undefined;
 }
 

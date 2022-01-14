@@ -3,6 +3,12 @@ import { Icon } from '../../icons/Icon';
 import { StyledLabelButton } from './LabelButton.styles';
 import { LabelButtonProps } from './LabelButton.types';
 
+/**
+ * Display label button with/without svg icon.
+ *
+ * >LabelButton component comes with default styles which can be overriden
+ * by using either classname or style.
+ */
 export const LabelButton = ({
   label = 'Label Button',
   icon,

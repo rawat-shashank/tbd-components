@@ -16,6 +16,9 @@ import { System } from './System';
 
 /**
  * Display an svg icon as react component.
+ *
+ * >Icon component comes with default styles which can be overriden
+ * by using either classname or style.
  */
 export const Icon = ({ name, width, height, className, style }: IconProps) =>
   ({
