@@ -4,6 +4,9 @@ import { LinkButtonProps } from './LinkButton.types';
 
 /**
  * Display a button as link with link styles.
+ *
+ * >LinkButton component comes with default styles which can be overriden
+ * by using either classname or style.
  */
 export const LinkButton = ({
   label,

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Test | Image Component should match snapshot 1`] = `
+<div>
+  <img
+    alt=""
+    class="sc-bdvvtL fnTSRN"
+    data-testid="image"
+    src=""
+    style="height: 2rem; width: 2rem;"
+  />
+</div>
+`;
