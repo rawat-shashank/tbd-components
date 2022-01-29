@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { LabelButton } from '../../components/buttons/labelButton/LabelButton';
 
 export default {
-  title: 'Buttons/Label Button',
+  title: 'Molecules/Buttons/Label Button',
   component: LabelButton,
 } as ComponentMeta<typeof LabelButton>;
 

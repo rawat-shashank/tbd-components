@@ -1,9 +1,6 @@
-import { CSSProperties, ImgHTMLAttributes } from 'react';
+import { ImgHTMLAttributes } from 'react';
+import { ExtendStyles } from '../shared/types';
 
-export interface ImageProps extends ImgHTMLAttributes<HTMLImageElement> {
-  /** Class to override the default styles. */
-  className?: string;
-
-  /** react style override */
-  style?: CSSProperties | undefined;
-}
+export interface ImageProps
+  extends ImgHTMLAttributes<HTMLImageElement>,
+    ExtendStyles {}

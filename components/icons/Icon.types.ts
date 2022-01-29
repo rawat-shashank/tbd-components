@@ -1,4 +1,5 @@
-import { CSSProperties, SVGAttributes } from 'react';
+import { SVGAttributes } from 'react';
+import { ExtendStyles } from '../shared/types';
 
 export type IconsName =
   | 'arrow-up'
@@ -12,20 +13,15 @@ export type IconsName =
   | 'menu'
   | 'sun'
   | 'moon'
-  | 'system';
+  | 'system'
+  | 'logo';
 
-export interface SVGProps extends SVGAttributes<SVGElement> {
-  /** Class to override the default styles.  */
-  className?: string;
-
+export interface SVGProps extends SVGAttributes<SVGElement>, ExtendStyles {
   /** Width for SVG element */
   width?: number | string | undefined;
 
   /** Height for SVG element */
   height?: number | string | undefined;
-
-  /** React style to override the default styles.  */
-  style?: CSSProperties | undefined;
 }
 
 export interface IconProps extends SVGProps {

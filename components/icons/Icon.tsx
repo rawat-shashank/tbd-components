@@ -13,6 +13,7 @@ import { Menu } from './Menu';
 import { Sun } from './Sun';
 import { Moon } from './Moon';
 import { System } from './System';
+import { Logo } from './Logo';
 
 /**
  * Display an svg icon as react component.
@@ -97,5 +98,8 @@ export const Icon = ({ name, width, height, className, style }: IconProps) =>
         className={className}
         style={style}
       />
+    ),
+    logo: (
+      <Logo width={width} height={height} className={className} style={style} />
     ),
   }[name]);

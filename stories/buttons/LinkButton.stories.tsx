@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { LinkButton } from '../../components/buttons/linkButton/LinkButton';
 
 export default {
-  title: 'Buttons/Link Button',
+  title: 'Molecules/Buttons/Link Button',
   component: LinkButton,
 } as ComponentMeta<typeof LinkButton>;
 

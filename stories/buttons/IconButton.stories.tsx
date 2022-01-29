@@ -3,8 +3,9 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { IconButton } from '../../components/buttons/iconButton/IconButton';
 
 export default {
-  title: 'Buttons/Icon Button',
+  title: 'Molecules/Buttons/Icon Button',
   component: IconButton,
+  argTypes: { onClick: { action: 'clicked' } },
 } as ComponentMeta<typeof IconButton>;
 
 const Template: ComponentStory<typeof IconButton> = (args) => (

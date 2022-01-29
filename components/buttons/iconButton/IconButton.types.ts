@@ -1,16 +1,12 @@
-import { ButtonHTMLAttributes, CSSProperties } from 'react';
+import { ButtonHTMLAttributes } from 'react';
 import { IconsName } from '../../icons/Icon.types';
+import { ExtendStyles } from '../../shared/types';
 
 export interface IconButtonProps
-  extends ButtonHTMLAttributes<HTMLButtonElement> {
+  extends ButtonHTMLAttributes<HTMLButtonElement>,
+    ExtendStyles {
   /** Icon name */
   icon: IconsName;
-
-  /** Class to override the default styles.  */
-  className?: string;
-
-  /** React style to override the default styles.  */
-  style?: CSSProperties | undefined;
 
   /** Icon Button variants */
   variant?: 'default' | 'outline' | 'active' | 'primary';

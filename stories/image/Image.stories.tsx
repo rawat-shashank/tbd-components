@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Image } from '../../components/image/Image';
 
 export default {
-  title: 'Image/Image',
+  title: 'Atoms/Image',
   component: Image,
   argTypes: {},
   args: {},
