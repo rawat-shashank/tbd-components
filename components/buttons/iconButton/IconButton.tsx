@@ -14,6 +14,7 @@ export const IconButton = ({
   className,
   style,
   disabled,
+  onClick,
   variant = 'default',
 }: IconButtonProps) => {
   const classes = className ? [className] : [];
@@ -40,6 +41,7 @@ export const IconButton = ({
       style={style}
       disabled={disabled}
       data-testid="icon-button"
+      onClick={onClick}
     >
       <Icon name={icon} height="1.5rem" width="1.5rem" />
     </StyledIconButton>
